@@ -11,6 +11,10 @@ public class Student {
 		Scanner input = new Scanner(System.in);
 		System.out.print("请输入学生姓名：");
 		this.name = input.next();
+		System.out.print("请输入学生性别：（1,男2，女）");
+		this.sex = input.nextInt();
+		System.out.print("请输入学生年级：");
+		this.grade = input.nextInt();
 	}
 	public void listen(){
 		System.out.println(this.name+"正在认真听课！");
